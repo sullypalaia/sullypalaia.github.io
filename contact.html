@@ -6,10 +6,27 @@
   <body>
     <nav class="navbar">
       <h1 class="logo"><a href="index.html">Sully Palaia</a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
     <main>
-      <h1 class="page-title">My Contact Information</h1>
+      <h1 class="page-title">Contact Me</h1>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        <input type="submit" value="Send" />
+      </form>
     </main>
+    <br />
     <footer class="footer">© 2026 Sully's Website | All Rights Reserved</footer>
   </body>
 </html>
