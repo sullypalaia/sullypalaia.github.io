@@ -16,21 +16,102 @@
     </nav>
     <main>
       <h1 class="page-title">My Resume</h1>
+      <a href="resume.pdf" download>Download Resume</a>
       <div class="resume">
         <section class="section">
           <h2 class="section-title">Education</h2>
+          <div class="entry">
+            <h3 class="entry-title">
+              California Polytechnic State University, San Luis Obispo
+            </h3>
+            <p class="entry-info">
+              BS Computer Engineering | Expected Graduation: May 2026
+            </p>
+          </div>
+          <div class="entry">
+            <h3 class="entry-title">
+              Evergreen High School, Evergreen, Colorado
+            </h3>
+            <p class="entry-info">GPA: 4.4/5.0 | SAT: 1500</p>
+          </div>
         </section>
         <section class="section">
           <h2 class="section-title">Experience</h2>
+          <div class="entry">
+            <h3 class="entry-title">Robotics Intern</h3>
+            <p class="entry-info">
+              Colorado School of Mines ARIA Lab | Summer 2025
+            </p>
+            <p class="entry-description">
+              Developed software for the autonomous navigation of Boston
+              Dynamics robot Spot
+            </p>
+            <p class="entry-description">
+              Collaborated with software and hardware teams to coordinate
+              developpment
+            </p>
+          </div>
         </section>
         <section class="section">
           <h2 class="section-title">Skills</h2>
+          <ul class="skill-list">
+            <li>C++ (20)</li>
+            <li>Python</li>
+            <li>ROS2</li>
+            <li>Lua</li>
+            <li>OpenGL (4.5)</li>
+          </ul>
         </section>
         <section class="section">
           <h2 class="section-title">Projects</h2>
+          <div class="entry">
+            <h3 class="entry-title">Game Engine</h3>
+            <p class="entry-info">
+              A simple game engine written with modern C++ and OpenGL 4.5
+            </p>
+            <p class="entry-description">
+              Built a tool that automatically generates GLSL shaders from a set
+              of components (position, color, transforms, etc...)
+            </p>
+            <p class="entry-description">
+              Using data-oriented design principles to implement an entity
+              component system using EnTT
+            </p>
+            <p class="entry-description">
+              Creating a renderer using OpenGL 4.5 with support for instanced
+              rendering, broader multi-draw, and other optimizations
+            </p>
+          </div>
+          <div class="entry">
+            <h3 class="entry-title">
+              UAV-assisted Trail Route Design Automation Simulation/Tool
+            </h3>
+            <p class="entry-info">
+              A tool tested in a simulation environment with the purpose of
+              autonomously collecting data and generating an optimal trail route
+            </p>
+            <p class="entry-description">
+              Developed plugins for and created a Gazebo simulation environment
+              involving the autonomous (or optionally manual) movement of a UAV
+              with an attached LiDAR sensor
+            </p>
+            <p class="entry-description">
+              Built a tool to automatically create a trail route based on a
+              least-cost path architecture implemented with Dijkstra's algorithm
+              and Point Cloud Library
+            </p>
+            <p class="entry-description">
+              Designed a landmark-based system in which a UAV will intentionally
+              avoid areas designated as obstacles, such as active bird nests,
+              when collecting dta and generating a route
+            </p>
+          </div>
         </section>
         <section class="section">
           <h2 class="section-title">Coursework</h2>
+          <ul class="course-list">
+            <li>CSC/CPE 1001: Fundamentals of Computer Science</li>
+          </ul>
         </section>
       </div>
     </main>
