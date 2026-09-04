@@ -83,16 +83,15 @@ footer {
 .links {
   color: #6f9fbf;
   text-decoration: underline;
+  transition: color 0.3s ease-in-out;
 }
 
 .links:hover {
   color: #254154;
-  transition: color 0.3s ease-in-out;
 }
 
 .links:active {
   color: #12212b;
-  transition: color 0.3s ease-in-out;
 }
 
 input:focus {
